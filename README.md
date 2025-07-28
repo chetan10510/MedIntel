@@ -25,15 +25,11 @@
 ```bash
 
 pip install -r requirements.txt
+
 2. Run the App (Local)
-bash
-Copy
-Edit
 streamlit run streamlit_app/app.py
+
 3. Run with Docker
-bash
-Copy
-Edit
 docker build -t medintel-app .
 docker run -p 8501:8501 medintel-app
 
