@@ -1,0 +1,5 @@
+.\.venv\Scripts\Activate.ps1
+#Because usage of powershell instead command prompt
+
+docker build -t medintel-app .
+docker run -p 8501:8501 medintel-app

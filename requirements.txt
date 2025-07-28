@@ -1,0 +1,11 @@
+streamlit
+torch
+transformers
+sentence-transformers
+faiss-cpu
+scikit-learn
+datasets
+huggingface-hub
+pandas
+streamlit-lottie
+requests

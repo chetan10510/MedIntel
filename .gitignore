@@ -1,0 +1,20 @@
+# Ignore heavy folders
+models/
+data/
+
+# Ignore virtual environment
+.venv/
+
+# Ignore cache and system files
+__pycache__/
+*.log
+*.csv
+*.parquet
+*.jsonl
+*.pkl
+*.pt
+*.bin
+*.zip
+*.egg-info/
+.DS_Store
+.vscode/
