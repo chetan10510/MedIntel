@@ -23,6 +23,7 @@
 ### 1. Install Requirements
 
 ```bash
+
 pip install -r requirements.txt
 2. Run the App (Local)
 bash
@@ -35,18 +36,11 @@ Copy
 Edit
 docker build -t medintel-app .
 docker run -p 8501:8501 medintel-app
-🧪 Training
-Train the SciBERT classifier:
 
-bash
-Copy
-Edit
+
 python train_classifier.py
-Build the FAISS index from PubMed:
 
-bash
-Copy
-Edit
+
 python rag/index_pubmed.py
 
 
